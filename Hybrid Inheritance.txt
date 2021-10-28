@@ -1,0 +1,19 @@
+* Hybrid Inheritance:
+
+1) Hybrid Inheritance in Java is a combination of Inheritances. In this type of Inheritance, more than one kind of inheritance is observed.
+2) For example, if we have class A and class B that extend class C and then there is another class D that extends class A, then this type of Inheritance is known as Hybrid Inheritance.
+
+3) It seems that because of this diagram people are finding it difficult to understand this topic because this diagram shows combination of hierarchical and multiple inheritance is not supported in java.
+4) The diagram is just for the representation, since multiple inheritance is not possible in java, It is not correct to show that as a part of hybrid inheritance.
+
+
+
+* Multiple Inheritance:
+
+1) One Class extending more than one class is called as multiple inheritance
+2) Java does not support Multiple Inheritance
+3) Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more than one parent class.
+4) Object Oriented Programming provides a user the feature of multiple inheritance, wherein a class can inherit the properties of more than a single parent class. In simpler terms, multiple inheritance means a class extending more than one class.
+5) Multiple inheritance is not supported by Java using classes , handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc and the above all reason is that there are very few scenarios on which we actually need multiple inheritance, so better to omit it for keeping the things simple and straightforward. ## Alternative to multiple inheritance.
+
+

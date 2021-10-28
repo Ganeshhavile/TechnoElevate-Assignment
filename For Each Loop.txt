@@ -1,0 +1,10 @@
+* For Each Loop:
+ 
+1) For-each is another array traversing technique like for loop, while loop, do-while loop introduced in Java
+2) It starts with the keyword for like a normal for-loop.
+3) Instead of declaring and initializing a loop counter variable, you declare a variable that is the same type as the base type of the array, followed by a colon, which is then followed by the array name.
+   In the loop body, you can use the loop variable you created rather than using an indexed array element. 
+ 
+4) It’s commonly used to iterate over an array or a Collections class.
+5) Foreach loop (or for each loop) is a control flow statement for traversing items in a collection.
+6)  Foreach is usually used in place of a standard for loop statement.

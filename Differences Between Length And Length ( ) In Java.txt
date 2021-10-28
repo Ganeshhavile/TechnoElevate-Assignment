@@ -1,0 +1,16 @@
+Length :-
+	-An array is an object that holds a fixed number of values of the same type.
+	-The length variable in an array returns the length of an array i.e. a number of elements stored in an array.
+	-Once arrays are initialized, its length cannot be changed, so the length variable can directly be used to get the length of an array.
+	-The length variable is used only for an array.length
+	-An array is an object that holds a fixed number of values of the same type.
+	-The length variable in an array returns the length of an array i.e. a number of elements stored in an array.
+	-Once arrays are initialized, its length cannot be changed, so the length variable can directly be used to get the length of an array.
+	-The length variable is used only for an array.
+
+Length() :-
+	-The length() method is a static method of String class.
+	-The length() returns the length of a string object i.e. the number of characters stored in an object.
+	-String class uses this method because the length of a string can be modified using the various operations on an object.
+	-The String class internally uses a char[] array that it does not expose to the outside world.
+
