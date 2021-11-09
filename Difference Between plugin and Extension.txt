@@ -1,0 +1,14 @@
+Difference Between plugin and Extension:
+Plugins
+When you're talking about a web browser, a plugin talks about a NPAPI or similar plugin, which is specific to the page. IE doesn't support "plugins" per se, but they have activex controls which can fill a similar function, though there are also BHO (Browser Helper Object) ActiveX controls which are more similar to extensions. Thus we (the FireBreath team) usually use the term "plugin" to refer to something that works like a NPAPI plugin and the term "extension" to refer to something that works like a typical extension (firefox XPI, Chrome CRX, etc).
+Plugins only know about the page they are in; they don't know anything else about the browser or what is loaded in other pages.
+Plugins have been responsible for a lot of security problems, since they actually run native code. This has led to a lot of discrimination against them -- much of it deserved. Because of this, and because NPAPI is a royal pain in the neck (hence FireBreath was created), most browsers are trying to phase out plugins. Plugins should never be used unless there is no other way to solve your problem.
+The main difference between the two is that plug-in provides extra functionality which does not modify the core functionality.
+That said, there are a lot of cases where they are the only option.
+Extensions
+An extension is something that is specific to the browser, and they are a bit different on each browser, but tend to be able to learn more about the overall state of the browser; they may be automatically added to pages, accessible separately from a page, etc.
+
+While extension is made for modifying core functionality, may be provided due to version change or improvement.
+Extension is specific to particular application. It extends functionality of a particular application or software.
+While plug-in can be made generalized which may runs independently in coordination with particular application or software.
+Extension are individual identity so one extension needs one set of privileges, whereas plugins are more complicated and needs to identify privileges for each application runs plugins rather than a whole plugin.

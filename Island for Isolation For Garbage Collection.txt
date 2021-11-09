@@ -1,0 +1,12 @@
+Island Of Isolation :
+In java, object destruction is taken care by the Garbage Collector module and the objects which do not have any references to them are eligible for garbage collection. Garbage Collector is capable to identify this type of objects.
+Island of Isolation:
+* Object 1 references Object 2 and Object 2 references Object 1. Neither Object 1 nor Object 2 is referenced by any other object. That’s an island of isolation.
+* Basically, an island of isolation is a group of objects that reference each other but they are not referenced by any active object in the application. Strictly speaking, even a single unreferenced object is an island of isolation too.
+Object A references object B. Object B references object A. Neither object A nor object B is referenced by any other object. That's an island of isolation.
+Basically, an island of isolation is a group of objects that reference each other but they are not referenced by any active object in the application. Strictly speaking, even a single unreferenced object is an island of isolation too.
+  "If an object obj1 is garbage collected, but another object obj2 contains a reference to it,  then obj2 is also eligible for garbage collection"
+"If object obj2 can access object obj1 that is eligible for garbage collection, then obj2 is also eligible for garbage collection"
+This is called "Island of Isolation". An "island of isolation" describes one or more objects have NO references to them from active parts of an application.
+The thing to keep in mind is that objects are only collected if they are referenced, either directly or indirectly, from a GC root object (threads, current local variables, static variables etc). If two (or more) objects reference each other, but are not referenced from a root, then they are eligible for garbage collection.
+
